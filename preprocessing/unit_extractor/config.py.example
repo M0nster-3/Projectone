@@ -1,4 +1,15 @@
 # config.py.example
 API_KEY = "your-api-key-here"
 MODEL_NAME = "qwen-vl-max"
+
+# 路径固定
 PDF_PATH = "topology.pdf"
+OUTPUT_ROOT = "preprocessing"
+
+# 全局固定处理范围：从第12页一直跑到PDF最后一页
+GLOBAL_START_PAGE = 12
+GLOBAL_END_PAGE = None  # None表示处理到PDF最后一页 
+
+# 重试配置
+MAX_RETRIES = 5
+RETRY_DELAY = 5
