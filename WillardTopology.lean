@@ -1,0 +1,18 @@
+-- This module serves as the root of the `WillardTopology` library.
+-- Import modules here that should be built as part of the library.
+import WillardTopology.Basic
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_1_Sets
+
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_2_Elementary_set_calculus
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Thm1_3_
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_4_Functions
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_5_Relations
+
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Thm1_10_
+
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_6_Order_relations
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_7_Lattices
+
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_8_Cardinality
+
+import WillardTopology.Ch1_SetTheoryandMetricSpaces.Def1_9_Special_cardinals

@@ -1,0 +1,10 @@
+name = "WillardTopology"
+version = "0.1.0"
+defaultTargets = ["willardtopology"]
+
+[[lean_lib]]
+name = "WillardTopology"
+
+[[lean_exe]]
+name = "willardtopology"
+root = "Main"
